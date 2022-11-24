@@ -1,0 +1,13 @@
+window.alert('Olá, para começar identifique-se')
+window.confirm('Okay?')
+var identificação = window.prompt(`Digite seu nome completo ${identificação}`)
+window.alert(`Prazer em te conhecer ${identificação} e obrigado por se identificar!`)
+document.write(`Seu nome: ${identificação}, possui ${identificação.length} letras.</br>`)
+document.write(`Seu nome: ${identificação}, em maiúsculo é ${identificação.toUpperCase()}!</br>`)
+document.write(`Seu nome: ${identificação}, em minúsculo é ${identificação.toLowerCase()}!</br>`)
+window.alert('Agora uma soma.')
+var primeiro_numero = Number(window.prompt(`Digite um número ${primeiro_numero}`))
+var segundo_numero = Number(window.prompt(`Digite um segundo número ${segundo_numero}`))
+var soma = primeiro_numero + segundo_numero
+window.alert(`A soma destes números é: ${soma}`)
+document.write(`O resultado da soma é: ${soma} :)`)
